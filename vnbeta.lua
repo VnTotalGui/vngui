@@ -13,7 +13,7 @@ _G.Key = "vnsexy"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-local Window = OrionLib:MakeWindow({Name = "VNtotalGui", HidePremium = false, SaveConfig = true, IntroEnabled = true , IntroText = "VNtotalGui"})
+local Window = OrionLib:MakeWindow({Name = "VNtotalGui", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
 local Tab = Window:MakeTab({
 	Name = "VNTotal",
