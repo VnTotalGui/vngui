@@ -24,7 +24,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Version1",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeisSoBad/VietnamTotalScript/main/VietNamTotalScriptV1"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VnTotalGui/vngui/main/vnv1.lua"))()
 		OrionLib:Destroy()
   	end    
 })
@@ -33,7 +33,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Version2 recommend",
 	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeisSoBad/VietnamTotalScript/main/VietNamTotalScriptV2'))()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/VnTotalGui/vngui/main/vnv2.lua'))()
 		OrionLib:Destroy()
   	end    
 })
