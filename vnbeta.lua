@@ -38,16 +38,6 @@ Tab:AddButton({
 })
 end
 
-function Notifycation()
-	
-OrionLib:MakeNotification({
-	Name = "Correct Key",
-	Content = "Choose Your Version",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-end
-
 local Tab = Window:MakeTab({
 	Name = "Enter Key",
 	Icon = "rbxassetid://4483345998",
@@ -68,7 +58,6 @@ Tab:AddButton({
 	Callback = function()
       	if _G.KeyInput == _G.Key then
 		MakeScriptHub()
-		Notifycation()
 		end
   	end    
 })
