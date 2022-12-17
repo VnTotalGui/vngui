@@ -68,7 +68,7 @@ Tab:AddButton({
 	Callback = function()
       	if _G.KeyInput == _G.Key then
 		MakeScriptHub(),
-		Notifycation()
+		Notifycation(),
 		end
   	end    
 })
