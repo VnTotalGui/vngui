@@ -29,7 +29,6 @@ Tab:AddButton({
   	end    
 })
 
-
 Tab:AddButton({
 	Name = "Version2 recommend",
 	Callback = function()
@@ -39,6 +38,16 @@ Tab:AddButton({
 })
 end
 
+function Notifycation()
+
+	
+OrionLib:MakeNotification({
+	Name = "Correct Key",
+	Content = "Choose Your Version",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+end
 
 local Tab = Window:MakeTab({
 	Name = "Enter Key",
