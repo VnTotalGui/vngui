@@ -39,7 +39,6 @@ Tab:AddButton({
 end
 
 function Notifycation()
-
 	
 OrionLib:MakeNotification({
 	Name = "Correct Key",
@@ -68,7 +67,8 @@ Tab:AddButton({
 	Name = "CheckKey",
 	Callback = function()
       	if _G.KeyInput == _G.Key then
-		MakeScriptHub()
+		MakeScriptHub(),
+		Notifycation()
 		end
   	end    
 })
