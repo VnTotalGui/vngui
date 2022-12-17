@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "VNtotalGui KeySystem", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "VNtotalGui KeySystem", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "HuyOiDitMeAnh"})
 
 OrionLib:MakeNotification({
 	Name = "Logged In",
