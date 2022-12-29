@@ -20,6 +20,10 @@ end)
 
 local btns = serv:Channel("BloxFruit")
 
+btns:Button("BloxFruit#0 (Buy Item Tool)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VnTotalGui/vngui/main/Vnbuy.lua"))()
+end)
+
 btns:Button("BloxFruit#1 (UNIQUE HUB)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.Xenonhub"))()
 end)
