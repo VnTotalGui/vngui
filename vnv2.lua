@@ -146,6 +146,12 @@ btns:Button("Best!!! PlsDonate#2 (bardium HUB) ", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
 end)
 
+local lbls = serv:Channel("Project Slayer")
+
+btns:Button("Lauscript X PS ", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VnTotalGui/vngui/main/Laus%20X%20Project%20Slayer.lua'))()
+end)
+
 local lbls = serv:Channel("Credits")
 
 lbls:Label("DISCORD : ZOHCONFIG#7717")
