@@ -1,11 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Lauscript", HidePremium = false, SaveConfig = false})
-OrionLib:MakeNotification({
-	Name = "Logged In",
-	Content = "You are logged in as "..Player.Name..".",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
 
 local Tab = Window:MakeTab({
 	Name = "Normal Farm",
