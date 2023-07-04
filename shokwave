@@ -1,0 +1,9 @@
+
+local args = {
+    [1] = "skil_ting_asd",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = "akaza_bda_compass_needle",
+    [4] = 1
+}
+
+game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
