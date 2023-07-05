@@ -68,3 +68,10 @@ Tab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/VnTotalGui/vngui/main/ouwi.lua'))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Shockwave godmode 50+",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/VnTotalGui/vngui/main/shokwave'))()
+  	end    
+})
