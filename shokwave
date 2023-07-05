@@ -1,4 +1,5 @@
-
+anything = true
+while true do 
 local args = {
     [1] = "skil_ting_asd",
     [2] = game:GetService("Players").LocalPlayer,
@@ -7,3 +8,5 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
+    wait(1,5)
+end
