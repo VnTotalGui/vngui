@@ -1,0 +1,15 @@
+local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/VnTotalGui/vngui/main/lws.lua"))() 
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+for i,v in pairs(HWIDTable) do
+	if v == HWID then
+		print("UnCrackAbleObfuscator : Loading")
+		wait(2)
+		print("UnCrackAbleObfuscator : Loaded")
+		wait(3)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeisSoBad/VietnamTotalScript/main/JohnCenaFreeScript"))()
+	end
+	 if v ~= HWID then
+		print("UnCrackAbleObfuscator : InvalidUser")	
+		game.Players.LocalPlayer:Kick("UnCrackAbleObfuscator : Go Buy Script!")
+	end
+end	
